@@ -1,0 +1,11 @@
+#Will be used in the future for updating workspaces to new versions.
+
+minecraft = 1.16.3;
+
+yarn = 17;
+
+libs = [
+  Fabric API;
+]
+
+

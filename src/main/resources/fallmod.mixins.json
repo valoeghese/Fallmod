@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "valoeghese.fallmod.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "Fallmod2"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

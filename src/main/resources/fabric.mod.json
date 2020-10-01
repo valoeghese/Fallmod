@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "fallmod",
+  "version": "1.0.0",
+  
+  "name": "Fallmod",
+  "description": "Mod Description.",
+  "authors": [
+    "Me!"
+  ],
+  
+  "icon": "assets/fallmod/icon.png",
+  "license": "No Licence.",
+  
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [
+      "valoeghese.fallmod.Fallmod"
+    ]
+  },
+  
+  "requires": {
+    "fabricloader": ">=0.4.0"
+  },
+  
+  "mixins": [
+    "fallmod.mixins.json"
+  ]
+}
