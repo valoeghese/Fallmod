@@ -22,11 +22,11 @@ public class Fallmod implements ModInitializer {
 
 		if (hardcore)
 			ServerTickEvents.END_SERVER_TICK.register(server -> {
-				if (RAND.nextInt(9) == 0)
+				if (RAND.nextInt(15) == 0)
 					for (ServerPlayerEntity player : server.getPlayerManager().getPlayerList())
 						if (!player.isCreative()) {
 							BlockPos pos = player.getBlockPos().down();
-							if (pos.getY() >= 0) player.world.setBlockState(pos, Blocks.AIR.getDefaultState());
+							if (pos.getY() >= 0) player.world.setBlockState(pos, Blocks.AIR.getDefaultState(), 3 | 8);
 						}
 			});
 	}
